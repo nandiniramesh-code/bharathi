@@ -73,8 +73,8 @@ export default function Footer() {
               <li className="flex items-start space-x-3">
                 <FaMapMarkerAlt className="text-blue-400 text-lg flex-shrink-0 mt-1" />
                 <span className="text-sm">
-                  123 Education Street, Medical District, 
-                  Karnataka, India
+                Main Bazar, Darbar Building,
+                  Thalil Temple Road, Nileshwaram, Kerala, India
                 </span>
               </li>
               <li className="flex items-center space-x-3">
@@ -83,7 +83,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-3">
                 <FaEnvelope className="text-blue-400 text-lg flex-shrink-0" />
-                <span className="text-sm">info@bharathiacademy.edu</span>
+                <span className="text-sm"> bharthiacademy4@gmail.com</span>
               </li>
               <li className="text-sm">
                 <strong className="text-white">Office Hours:</strong>
