@@ -1,7 +1,7 @@
 import { FaWhatsapp } from "react-icons/fa"; // Import WhatsApp icon
 
 export default function WhatsApp() {
-    const whatsappNumber = "+916382935895"; // Replace with your actual WhatsApp number
+    const whatsappNumber = "+918304964708"; // Replace with your actual WhatsApp number
     const whatsappMessage = "Hello, I would like more information";
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 

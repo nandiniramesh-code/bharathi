@@ -1,7 +1,7 @@
 import Navbar from '@/Components/Navbar';
 import './globals.css';
 import Footer from '@/Components/footer';
-import WhatsApp from '@/Components/whatsapp';
+import WhatsApp from '@/Components/WhatsApp';
 
 
 

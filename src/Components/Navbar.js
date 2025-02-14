@@ -53,9 +53,9 @@ export default function Navbar() {
           <Link href="/" className="block px-4 py-2 text-white hover:text-blue-400">HOME</Link>
           
           <Link href="/about" className="block px-4 py-2 text-white hover:text-blue-400">ABOUT US</Link>
-          <Link href="/gallery" className="block px-4 py-2 text-white hover:text-blue-400">COURSES</Link>
-          <Link href="/" className="block px-4 py-2 text-white hover:text-blue-400">CAREERS</Link>
-          <Link href="/recipe" className="block px-4 py-2 text-white hover:text-blue-400">CONTACT US</Link>
+          <Link href="/courses" className="block px-4 py-2 text-white hover:text-blue-400">COURSES</Link>
+          <Link href="/carere" className="block px-4 py-2 text-white hover:text-blue-400">CAREERS</Link>
+          <Link href="/contact" className="block px-4 py-2 text-white hover:text-blue-400">CONTACT US</Link>
         </div>
       </div>
     </nav>

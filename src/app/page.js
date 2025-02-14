@@ -5,7 +5,8 @@ import React from 'react'
 import ImageGrid from '@/Components/ImageGride'
 import Dimploma from '@/Components/Dimploma'
 import CareerPage from '@/Components/CareerPage'
-import Contact from '@/Components/Contact'
+import Contact from '@/Components/ContactForm'
+import ContactForm from '@/Components/ContactForm'
 
 export default function page() {
   return (
@@ -17,7 +18,7 @@ export default function page() {
       <ImageGrid />
       <Dimploma />
       <CareerPage />
-      <Contact />
+      <ContactForm/>
     </div>
   )
 }
