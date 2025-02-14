@@ -13,10 +13,10 @@ export default function page() {
     <div>
 
       <Hero/>
-      <AboutUs />
-      <Univercity />
       <ImageGrid />
       <Dimploma />
+      <AboutUs />
+      <Univercity />      
       <CareerPage />
       <ContactForm/>
     </div>
