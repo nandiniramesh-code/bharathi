@@ -32,8 +32,8 @@ const ContactForm = () => {
             <FaEnvelope className="text-blue-600 text-xl flex-shrink-0" />
             <span>
               <strong>Email:</strong>{" "}
-              <a href="mailto:b2433720@gmail.com" className="text-blue-600 hover:underline">
-                b2433720@gmail.com
+              <a href="mailto:bharthiacademy4@gmail.com" className="text-blue-600 hover:underline">
+              bharthiacademy4@gmail.com
               </a>
             </span>
           </p>
