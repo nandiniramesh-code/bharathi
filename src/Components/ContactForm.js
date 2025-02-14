@@ -1,4 +1,5 @@
 import React from "react";
+import { FaMapMarkerAlt, FaClock, FaPhone, FaWhatsapp, FaEnvelope, FaUser, FaPaperPlane } from "react-icons/fa";
 
 const ContactForm = () => {
   return (
@@ -10,27 +11,35 @@ const ContactForm = () => {
           Contact us today to learn more about our services or discuss your specific requirements.
         </p>
         <div className="mt-6 space-y-4 text-gray-700">
-          <p>
-            <strong>📍 Address:</strong> Main Bazar, Darbar Building,  
-            Thalil Temple Road, Nileshwaram, Kerala, India
+          <p className="flex items-center gap-2">
+            <FaMapMarkerAlt className="text-blue-600 text-xl flex-shrink-0" />
+            <span><strong>Address:</strong> Main Bazar, Darbar Building,  
+            Thalil Temple Road, Nileshwaram, Kerala, India</span>
           </p>
-          <p>
-            <strong>🕒 Office Time:</strong> 9:00 AM to 5:00 PM
+          <p className="flex items-center gap-2">
+            <FaClock className="text-blue-600 text-xl flex-shrink-0" />
+            <span><strong>Office Time:</strong> 9:00 AM to 5:00 PM</span>
           </p>
-          <p>
-            <strong>📞 Phone:</strong> 08304964708
+          <p className="flex items-center gap-2">
+            <FaPhone className="text-blue-600 text-xl flex-shrink-0 rotate-90" />
+            <span><strong>Phone:</strong> 08304964708</span>
           </p>
-          <p>
-            <strong>💬 WhatsApp:</strong> 08304964708
+          <p className="flex items-center gap-2">
+            <FaWhatsapp className="text-blue-600 text-xl flex-shrink-0" />
+            <span><strong>WhatsApp:</strong> 08304964708</span>
           </p>
-          <p>
-            <strong>📧 Email:</strong>  
-            <a href="mailto:b2433720@gmail.com" className="text-blue-600 underline">
-              b2433720@gmail.com
-            </a>
+          <p className="flex items-center gap-2">
+            <FaEnvelope className="text-blue-600 text-xl flex-shrink-0" />
+            <span>
+              <strong>Email:</strong>{" "}
+              <a href="mailto:b2433720@gmail.com" className="text-blue-600 hover:underline">
+                b2433720@gmail.com
+              </a>
+            </span>
           </p>
-          <p>
-            <strong>👤 Contact Person:</strong> M. Prakashan
+          <p className="flex items-center gap-2">
+            <FaUser className="text-blue-600 text-xl flex-shrink-0" />
+            <span><strong>Contact Person:</strong> M. Prakashan</span>
           </p>
         </div>
       </div>
@@ -38,7 +47,7 @@ const ContactForm = () => {
       {/* Right Section - Contact Form (Formspree Integration) */}
       <div className="md:w-1/2 bg-gray-100 p-6 rounded-lg shadow-md font-bold">
         <form 
-          action="https://formspree.io/f/mdkalrgg" // Replace {your_form_id} with your actual Formspree ID
+          action="https://formspree.io/f/mdkalrgg"
           method="POST"
           className="space-y-4"
         >
@@ -86,8 +95,9 @@ const ContactForm = () => {
             ></textarea>
           </div>
 
-          <button type="submit" className="w-full bg-blue-900 text-white py-2 rounded hover:bg-blue-800 transition">
-            Send Message
+          <button type="submit" className="w-full bg-blue-900 text-white py-2 px-4 rounded hover:bg-blue-800 transition flex items-center justify-center gap-2">
+            <span>Send Message</span>
+            <FaPaperPlane className="text-sm" />
           </button>
         </form>
       </div>
