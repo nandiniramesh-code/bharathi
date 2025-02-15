@@ -3,6 +3,7 @@ import './globals.css';
 import Navbar from '@/Components/Navbar';
 import WhatsApp from '@/Components/WhatsApp';
 import Footer from '@/Components/footer';
+import Script from 'next/script';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -90,6 +91,19 @@ export default function RootLayout({ children }) {
     <html lang="en" className={poppins.className}>
       <head>
         <StructuredData />
+        {/* Google tag (gtag.js) */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-ME8XCXDQB2"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-ME8XCXDQB2');
+          `}
+        </Script>
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className="min-h-screen">
