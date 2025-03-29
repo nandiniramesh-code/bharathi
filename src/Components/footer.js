@@ -82,13 +82,17 @@ export default function Footer() {
                 <span className="text-sm">+91 08304964708</span>
               </li>
               <li className="flex items-center space-x-3">
+                <FaPhone className="text-blue-400 text-lg flex-shrink-0 rotate-90" />
+                <span className="text-sm">0467 2283667</span>
+              </li>
+              <li className="flex items-center space-x-3">
                 <FaEnvelope className="text-blue-400 text-lg flex-shrink-0" />
-                <span className="text-sm"> bharthiacademy4@gmail.com</span>
+                <span className="text-sm"> bharathiacademy4@gmail.com</span>
               </li>
               <li className="text-sm">
                 <strong className="text-white">Office Hours:</strong>
                 <br />
-                Monday - Saturday: 9:00 AM - 5:00 PM
+                Monday - Saturday: 10:00 AM - 4:00 PM
               </li>
             </ul>
           </div>

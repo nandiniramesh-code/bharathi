@@ -18,7 +18,11 @@ const ContactForm = () => {
           </p>
           <p className="flex items-center gap-2">
             <FaClock className="text-blue-600 text-xl flex-shrink-0" />
-            <span><strong>Office Time:</strong> 9:00 AM to 5:00 PM</span>
+            <span><strong>Office Time:</strong> 10:00 AM to 4:00 PM</span>
+          </p>
+          <p className="flex items-center gap-2">
+            <FaPhone className="text-blue-600 text-xl flex-shrink-0 rotate-90" />
+            <span><strong>Phone:</strong> 0467 2283667</span>
           </p>
           <p className="flex items-center gap-2">
             <FaPhone className="text-blue-600 text-xl flex-shrink-0 rotate-90" />
@@ -32,8 +36,8 @@ const ContactForm = () => {
             <FaEnvelope className="text-blue-600 text-xl flex-shrink-0" />
             <span>
               <strong>Email:</strong>{" "}
-              <a href="mailto:bharthiacademy4@gmail.com" className="text-blue-600 hover:underline">
-              bharthiacademy4@gmail.com
+              <a href="mailto:bharathiacademy4@gmail.com" className="text-blue-600 hover:underline">
+              bharathiacademy4@gmail.com
               </a>
             </span>
           </p>
